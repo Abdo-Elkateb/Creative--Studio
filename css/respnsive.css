@@ -1,0 +1,162 @@
+@media screen and (max-width: 1200px) {
+  .center_header .center__title h1 {
+    font-size: 90px !important;
+    font-weight: 600;
+  }
+
+  .testimonia .testimonia-main .card .testimonia-img img {
+    position: absolute;
+    background: #fff !important;
+    padding: 4px;
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50%;
+    left: -95px;
+    top: 22px !important;
+
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+  .testimonia .testimonia-main .card .testimonia-img img {
+    position: absolute;
+    background: #fff !important;
+    padding: 4px;
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50%;
+    left: -95px;
+    top: 22px !important;
+
+  }
+
+
+  .form-box .form-card {
+
+    border: 1px solid #eaf0fc;
+    padding: 30px;
+
+  }
+
+  .form-card .form-contact {
+    display: none;
+
+  }
+
+  .form-card .touch {
+    width: 90%;
+
+
+
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .main__header .row__header {
+
+    top: 200px;
+
+
+  }
+
+  .about {
+    top: 700px;
+    margin-bottom: 600px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .awesome .awesome-main {
+    border-right: none !important;
+  }
+
+  .testimonia .testimonia-main .card .testimonia-img img {
+    position: absolute;
+    background: #fff !important;
+    padding: 4px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    left: -95px;
+    top: 30px !important;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+
+  footer .footer_main {
+
+    display: none
+  }
+
+  footer .footer_main .footer_component {
+    width: 100vw;
+    margin-left: 20px;
+  }
+
+}
+
+/* screen 600px */
+@media screen and (max-width: 600px) {
+
+  .section-repeat h6 {
+
+    font-size: 20px !important;
+  }
+
+  .section-repeat h5 {
+    font-size: 30px !important;
+  }
+
+  .center_header .center__title p {
+    margin-top: 70px !important;
+    font-size: 30px !important;
+  
+  }
+  
+  .center_header .center__title h1 {
+    margin-top: 5px !important;
+    font-size: 40px !important;
+  }
+
+  .awesome .awesome-main {
+    border-right: none !important;
+  }
+
+
+  .testimonia .testimonia-main .card {
+    width: 80%;
+    margin: auto;
+    padding: 0px 0px 0px 40px !important;
+
+  }
+
+  .testimonia .card .card-body p {
+    color: #9ca0a3;
+
+    font-size: 15px;
+
+  }
+
+  .testimonia .testimonia-main .card .testimonia-img img {
+
+    left: -80px !important;
+    top: 40px !important;
+
+  }
+
+  .testimonia .testimonia-main h6 {
+    color: #495057;
+    font-size: 18px;
+
+  }
+
+}
