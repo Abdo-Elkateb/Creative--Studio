@@ -1,6 +1,6 @@
 
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -326,21 +326,6 @@ h5 {
   text-align: center;
 }
 
-/* .pannig .cal__pannig h4::after {
-  content: " >";
-  position: absolute;
-  inset: 0;
-  left: -289px;
-  top: -38px;
-  color: red;
-} */
-
-/* end pannig */
-
-/* start our service */
-
-
-
 
 .Our-Service .card {
   padding: 25px 29px;
@@ -362,7 +347,6 @@ h5 {
 
 .Our-Service .card .card_title h5 {
   font-size: 1rem;
-  ;
   color: #495057;
   line-height: 1.2;
 }
@@ -619,25 +603,25 @@ h5 {
 /* end awesome */
 
 
-/* start testimonia */
-.testimonia {
+/* start testimonial */
+.testimonial {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-.testimonia h3 {
+.testimonial h3 {
   color: #a9a7aa;
   font-size: 25px;
 }
 
-.testimonia h4 {
+.testimonial h4 {
   font-size: 40px;
   margin-bottom: 30px;
   color: #495057;
 
 }
 
-.testimonia .testimonia-main .card {
+.testimonial .testimonial-main .card {
   padding: 0px 50px;
   margin-bottom: 15px;
   color:#7b8186;
@@ -648,12 +632,12 @@ h5 {
   -o-transition: all .5s ease;
 }
 
-.testimonia .testimonia-main .testimonia-img {
+.testimonial .testimonial-main .testimonial-img {
   position: relative;
   transition: all .5s ease;
 }
 
-.testimonia .testimonia-main .card .testimonia-img img {
+.testimonial .testimonial-main .card .testimonial-img img {
   position: absolute;
   background: #fff !important;
   padding: 4px;
@@ -666,17 +650,11 @@ h5 {
 
 }
 
-.testimonia .testimonia-main .card:hover,
-.testimonia img:hover {
-  border-color: #D4002C;
-  box-shadow: 0px 0px 8px rgba(253, 19, 19, 0.5);
-}
 
 
 
 
-
-/* end testimonia */
+/* end testimonial */
 
 /*  start section video */
 

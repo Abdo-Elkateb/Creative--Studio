@@ -1,18 +1,19 @@
+
 @media screen and (max-width: 1200px) {
   .center_header .center__title h1 {
-    font-size: 90px !important;
+    font-size: 90px;
     font-weight: 600;
   }
 
-  .testimonia .testimonia-main .card .testimonia-img img {
+  .testimonial .testimonial-main .card .testimonial-img img {
     position: absolute;
-    background: #fff !important;
+    background: #fff;
     padding: 4px;
-    width: 80px !important;
-    height: 80px !important;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     left: -95px;
-    top: 22px !important;
+    top: 22px;
 
   }
 
@@ -20,15 +21,15 @@
 
 @media screen and (max-width: 992px) {
 
-  .testimonia .testimonia-main .card .testimonia-img img {
+  .testimonial .testimonial-main .card .testimonial-img img {
     position: absolute;
-    background: #fff !important;
+    background: #fff;
     padding: 4px;
-    width: 80px !important;
-    height: 80px !important;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     left: -95px;
-    top: 22px !important;
+    top: 22px;
 
   }
 
@@ -47,11 +48,7 @@
 
   .form-card .touch {
     width: 90%;
-
-
-
   }
-
 
 }
 
@@ -73,12 +70,12 @@
   }
 
   .awesome .awesome-main {
-    border-right: none !important;
+    border-right: none;
   }
 
-  .testimonia .testimonia-main .card .testimonia-img img {
+  .testimonial .testimonial-main .card .testimonial-img img {
     position: absolute;
-    background: #fff !important;
+    background: #fff;
     padding: 4px;
     width: 90px;
     height: 90px;
@@ -108,52 +105,49 @@
 @media screen and (max-width: 600px) {
 
   .section-repeat h6 {
-
-    font-size: 20px !important;
+    font-size: 20px;
   }
 
   .section-repeat h5 {
-    font-size: 30px !important;
+    font-size: 30px;
   }
 
   .center_header .center__title p {
     margin-top: 70px !important;
-    font-size: 30px !important;
-  
+    font-size: 30px;
   }
   
   .center_header .center__title h1 {
-    margin-top: 5px !important;
+    margin-top: 5px;
     font-size: 40px !important;
+
   }
 
   .awesome .awesome-main {
-    border-right: none !important;
+    border-right: none;
   }
 
 
-  .testimonia .testimonia-main .card {
+  .testimonial .testimonial-main .card {
     width: 80%;
     margin: auto;
-    padding: 0px 0px 0px 40px !important;
+    padding: 0px 0px 0px 40px;
 
   }
 
-  .testimonia .card .card-body p {
+  .testimonial .card .card-body p {
     color: #9ca0a3;
-
     font-size: 15px;
+  }
+
+  .testimonial .testimonial-main .card .testimonial-img img {
+
+    left: -80px;
+    top: 40px;
 
   }
 
-  .testimonia .testimonia-main .card .testimonia-img img {
-
-    left: -80px !important;
-    top: 40px !important;
-
-  }
-
-  .testimonia .testimonia-main h6 {
+  .testimonial .testimonial-main h6 {
     color: #495057;
     font-size: 18px;
 
