@@ -11,6 +11,9 @@ img {
 ui {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 
 :root {
   --main-background-color: red;

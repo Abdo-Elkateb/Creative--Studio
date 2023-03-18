@@ -1,7 +1,7 @@
 
 @media screen and (max-width: 1200px) {
   .center_header .center__title h1 {
-    font-size: 90px;
+    font-size: 75px !important;
     font-weight: 600;
   }
 
@@ -29,9 +29,12 @@
     height: 80px;
     border-radius: 50%;
     left: -95px;
-    top: 22px;
-
-  }
+    top: 18px !important;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
 
 
   .form-box .form-card {
@@ -41,12 +44,12 @@
 
   }
 
-  .form-card .form-contact {
+  .form-box .form-card .form-contact {
     display: none;
 
   }
 
-  .form-card .touch {
+  .form-box .form-card .touch {
     width: 90%;
   }
 
@@ -57,9 +60,12 @@
 @media screen and (max-width: 768px) {
   .main__header .row__header {
 
-    top: 200px;
+    top: 330px;
 
 
+  }
+  .center_header .center__title h1 {
+    font-size: 50px !important;
   }
 
   .about {
