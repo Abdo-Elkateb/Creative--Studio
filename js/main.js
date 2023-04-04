@@ -4,7 +4,7 @@
 var main = document.getElementById("nav__main")
 
 window.onscroll = function() {
-    if(scrollY > 200) {
+    if(scrollY > 150) {
         main.classList.add("nav_fixed")
         scroll
     } else {
@@ -13,3 +13,7 @@ window.onscroll = function() {
 
 }
 
+// ASO 
+AOS.init({
+    duration:1500
+})

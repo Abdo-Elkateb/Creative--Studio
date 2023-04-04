@@ -114,6 +114,9 @@ a {
   text-transform: capitalize;
   font-weight: 700;
 }
+.navbar-nav .nav-link:hover {
+color: antiquewhite;
+}
 
 
 .collapse .btn {
@@ -344,7 +347,7 @@ h5 {
 
 .Our-Service .card .card_title h5 {
   font-size: 1rem;
-  color: #495057;
+  color: red;
   line-height: 1.2;
 }
 
@@ -436,6 +439,7 @@ h5 {
   content: "projact title";
   position: absolute;
   font-size: 20px;
+  color:#fff;
   top: 50%;
   z-index: 999;
   transform: translate(100%, -50%);
