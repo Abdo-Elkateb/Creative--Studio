@@ -7,12 +7,10 @@ img {
   height: 100%;
 }
 
-ui {
-  list-style: none;
-}
 
-a {
+li {
   text-decoration: none;
+   list-style: none;
 }
 
 :root {
@@ -106,7 +104,9 @@ a {
   padding-right: 10px;
   color: white;
 }
-
+.navbar-nav .active {
+  color: #fa0034 !important;
+}
 
 .navbar-nav .nav-link {
   padding-right: 15px;
@@ -115,7 +115,7 @@ a {
   font-weight: 700;
 }
 .navbar-nav .nav-link:hover {
-color: antiquewhite;
+  color: antiquewhite;
 }
 
 
@@ -153,17 +153,23 @@ color: antiquewhite;
   padding: 13px 45px;
   border: none;
   border-radius: 37px;
-  color: #fff;
+  color: #333;
   font-size: 17px;
   font-weight: 420;
+  text-decoration: none;
   margin-right: 1px;
   margin-bottom: 50px;
   margin-top: 50px;
   transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-  -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-  -moz-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-  -ms-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-  -o-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.center_header .center__title .button_center a {
+ text-decoration: none;
+ color:#ffff;
+ text-transform: capitalize;
+
+}
+.center_header .center__title .button_center:hover a {
+   color:#333;
 }
 
 .center_header .center__title .button_center:hover {
