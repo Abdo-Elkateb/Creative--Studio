@@ -59,10 +59,6 @@ li {
   inset: 0;
 }
 
-.navbar {
-  z-index: 1;
-}
-
 .nav__main .container {
   border: 1px solid #fff;
   margin-top: 30px;
@@ -352,19 +348,16 @@ h5 {
 }
 
 .Our-Service .card .card_title h5 {
-  font-size: 1rem;
-  color: red;
-  line-height: 1.2;
+font-size: 1rem;
+color: #495057;
+line-height: 1.2;
+text-transform: capitalize;
 }
 
 .Our-Service .card .card_p p {
   color: #93979b;
 }
 
-.Our-Service .card:hover {
-  border-color: #d4002c;
-  box-shadow: 0px 0px 8px rgba(253, 19, 19, 0.5);
-}
 
 /* end our service *
 
