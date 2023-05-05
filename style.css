@@ -37,7 +37,7 @@ li {
 }
 
 .header-main {
-  background: url(../Creative-\ Studio/imgs/header.jpg) no-repeat center center
+  background: url(./imgs/header.jpg) no-repeat center center
     fixed;
   height: 100%;
   min-height: 600px;
